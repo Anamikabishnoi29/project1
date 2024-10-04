@@ -1,0 +1,95 @@
+body{
+      background-image: url("photo1.jpg");
+      background-size: cover;
+}
+
+.main{
+       height: 100%;
+       width: 100%;
+       position:relative;
+       background-color: rgb(119, 95, 119);
+
+}
+
+.nav{
+ height: 100px;
+ width: 100%;
+ border-bottom: 2px solid #dadada;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.nav2{
+    display: flex;
+     gap: 4vw; 
+    align-items: center;
+}
+
+.nav h2{
+ font-size: 2vw;
+ font-weight: 700;
+ color: aliceblue;
+
+}
+
+.nav h4{
+    font-size: 1vw;
+    color: aliceblue;
+}
+
+
+.content{
+    
+    display: flex; 
+  height:300px;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2vw;
+  position: fixed;
+  left: 3%;
+  top: 20%;
+  color: black;
+  
+}
+
+span{
+    font-size: 3vw;
+    color: rgb(159, 97, 149);
+}
+
+button{
+   position: fixed;
+   left: 50%;
+   top: 50%;
+  font-size: 20px;
+text-align: center;
+
+}
+
+button:hover {
+    background-color: rgb(159, 97, 149);
+    color: white;
+}
+ 
+h4:hover {
+   text-decoration: underline;
+}
+
+footer{
+    display: flex;
+   position: fixed;
+   bottom: 0;
+   height: 150px;
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   background-color: rgb(238, 217, 238);
+   border: 5px black;
+   font-size: 19px;
+}
+
+
+
